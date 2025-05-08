@@ -1,4 +1,12 @@
 import { CourseProps } from '../components/CourseCard';
+import Image1 from '../Assets/Coursecard-img1.webp';
+import Image2 from '../Assets/pythonCoursecard-img2.webp';
+import Image3 from '../Assets/linkedincoursecard-img3.webp';
+import Image4 from '../Assets/Coursecard-img4.webp';
+import Image5 from '../Assets/CoursecardDataScience-img5.webp';
+import Image6 from '../Assets/black-designCoursecard-img6.webp';
+import Image7 from '../Assets/Coursecard-img7.webp';
+import Image8 from '../Assets/coursecard-img8.webp';
 
 const coursesData: CourseProps[] = [
   {
@@ -12,7 +20,7 @@ const coursesData: CourseProps[] = [
     students: 3458,
     rating: 4.7,
     price: 'Free',
-    image: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: Image1,
   },
   {
     id: 2,
@@ -25,7 +33,7 @@ const coursesData: CourseProps[] = [
     students: 2156,
     rating: 4.9,
     price: 21,
-    image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: Image2,
   },
   {
     id: 3,
@@ -38,7 +46,7 @@ const coursesData: CourseProps[] = [
     students: 5689,
     rating: 4.8,
     price: 9,
-    image: 'https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: Image3,
   },
   {
     id: 4,
@@ -51,7 +59,7 @@ const coursesData: CourseProps[] = [
     students: 7823,
     rating: 4.6,
     price: 11,
-    image: 'https://images.pexels.com/photos/3760072/pexels-photo-3760072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: Image4,
   },
   {
     id: 5,
@@ -64,7 +72,7 @@ const coursesData: CourseProps[] = [
     students: 1543,
     rating: 4.9,
     price: 21,
-    image: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: Image5,
   },
   {
     id: 6,
@@ -77,7 +85,7 @@ const coursesData: CourseProps[] = [
     students: 6249,
     rating: 4.5,
     price: 9,
-    image: 'https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: Image6,
   },
   {
     id: 7,
@@ -90,7 +98,7 @@ const coursesData: CourseProps[] = [
     students: 984,
     rating: 4.8,
     price: 21,
-    image: 'https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: Image7,
   },
   {
     id: 8,
@@ -103,7 +111,7 @@ const coursesData: CourseProps[] = [
     students: 1253,
     rating: 4.7,
     price: 11,
-    image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: Image8,
   },
 ];
 

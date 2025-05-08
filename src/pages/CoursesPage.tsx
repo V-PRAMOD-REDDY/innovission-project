@@ -4,6 +4,7 @@ import PageHeader from '../components/PageHeader';
 import SectionTitle from '../components/SectionTitle';
 import CourseCard from '../components/CourseCard';
 import coursesData from '../data/courses';
+import CourseSectionImage from '../Assets/CourseSection-img.webp'
 
 const CoursesPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -66,7 +67,7 @@ const CoursesPage = () => {
       <PageHeader 
         title="Explore Courses" 
         subtitle="Expand your knowledge and skills with our diverse range of courses"
-        backgroundImage="https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        backgroundImage={CourseSectionImage}
       />
 
       {/* Filter Section */}

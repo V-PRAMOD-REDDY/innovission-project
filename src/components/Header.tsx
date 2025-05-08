@@ -41,7 +41,7 @@ const Header = () => {
     >
       <div className="container-custom">
         <div className="flex items-center justify-between">
-          <NavLink to="/" className="flex items-center">
+          <NavLink to="/#/" className="flex items-center">
             
             <span className="ml-2 text-xl font-bold text-gray-900">Innovission</span>
           </NavLink>
@@ -64,8 +64,9 @@ const Header = () => {
               </NavLink>
             ))}
             <a
-              href="#join"
-              className="ml-4 btn btn-primary text-sm px-4 py-2"
+              href="https://www.instagram.com/innovisio.n?igsh=OHoxZXdsb245bnpp"
+              className="ml-4 btn btn-primary text-sm px-4 py-2" target='_blank' rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
             >
               Join Community
             </a>
@@ -108,9 +109,10 @@ const Header = () => {
             </NavLink>
           ))}
           <a
-            href="#join"
+            href="https://www.instagram.com/innovisio.n?igsh=OHoxZXdsb245bnpp"
             className="block w-full text-center btn btn-primary mt-4"
             onClick={() => setIsOpen(false)}
+            target='_blank' rel="noopener noreferrer"
           >
             Join Community
           </a>

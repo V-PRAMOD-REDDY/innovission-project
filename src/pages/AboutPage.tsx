@@ -2,13 +2,15 @@ import { ExternalLink, Target, Lightbulb, Users, Heart } from 'lucide-react';
 import PageHeader from '../components/PageHeader';
 import SectionTitle from '../components/SectionTitle';
 import PramodImage from '../Assets/Pramod.jpg';
+import HemanthImage from '../Assets/hemanth-img.png';
+import SruithiImage from '../Assets/sruthi-img.jpg';
 
 
 const AboutPage = () => {
   return (
     <>
-      <PageHeader 
-        title="About Innovission" 
+      <PageHeader
+        title="About Innovission"
         subtitle="Empowering students and job seekers to develop skills for the future"
         backgroundImage="https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       />
@@ -18,8 +20,8 @@ const AboutPage = () => {
         <div className="container-custom">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <SectionTitle 
-                title="Our Mission" 
+              <SectionTitle
+                title="Our Mission"
                 subtitle="Bridging the skills gap for a better future"
               />
               <p className="text-gray-600 mb-6">
@@ -38,9 +40,9 @@ const AboutPage = () => {
               </div>
             </div>
             <div>
-              <img 
-                src="https://images.pexels.com/photos/3184303/pexels-photo-3184303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Our Mission" 
+              <img
+                src="https://images.pexels.com/photos/3184303/pexels-photo-3184303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Our Mission"
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -51,12 +53,12 @@ const AboutPage = () => {
       {/* Values Section */}
       <section className="section-padding bg-gray-50">
         <div className="container-custom">
-          <SectionTitle 
-            title="Our Core Values" 
+          <SectionTitle
+            title="Our Core Values"
             subtitle="The principles that guide everything we do"
             align="center"
           />
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
             <div className="card p-6 text-center">
               <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-primary-100 text-primary-600 mb-4">
@@ -67,7 +69,7 @@ const AboutPage = () => {
                 Making quality education accessible to everyone regardless of their background or financial constraints.
               </p>
             </div>
-            
+
             <div className="card p-6 text-center">
               <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-secondary-100 text-secondary-600 mb-4">
                 <Lightbulb className="h-8 w-8" />
@@ -77,7 +79,7 @@ const AboutPage = () => {
                 Constantly evolving our teaching methods and curriculum to keep pace with industry trends.
               </p>
             </div>
-            
+
             <div className="card p-6 text-center">
               <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-accent-100 text-accent-600 mb-4">
                 <Users className="h-8 w-8" />
@@ -87,7 +89,7 @@ const AboutPage = () => {
                 Fostering a supportive learning environment where peers help each other grow and succeed.
               </p>
             </div>
-            
+
             <div className="card p-6 text-center">
               <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-primary-100 text-primary-600 mb-4">
                 <Heart className="h-8 w-8" />
@@ -106,15 +108,15 @@ const AboutPage = () => {
         <div className="container-custom">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
-              <img 
-                src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Collaboration with Innovision" 
+              <img
+                src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Collaboration with Innovision"
                 className="rounded-lg shadow-lg"
               />
             </div>
             <div className="order-1 md:order-2">
-              <SectionTitle 
-                title="Collaboration with Innovision" 
+              <SectionTitle
+                title="Collaboration with Innovision"
                 subtitle="Strategic partnerships to enhance learning experiences"
               />
               <p className="text-gray-600 mb-6">
@@ -123,8 +125,8 @@ const AboutPage = () => {
               <p className="text-gray-600 mb-6">
                 This partnership also enables us to connect our students with potential employers, organize tech meetups, and provide mentorship from industry experts.
               </p>
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="btn btn-primary flex items-center w-fit"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -140,12 +142,12 @@ const AboutPage = () => {
       {/* Campaign Section */}
       <section className="section-padding bg-gradient-to-r from-primary-900 to-primary-800 text-white">
         <div className="container-custom">
-          <SectionTitle 
-            title="NCAT 2025 Preparation Campaign" 
+          <SectionTitle
+            title="NCAT 2025 Preparation Campaign"
             subtitle="Comprehensive support for one of India's most competitive exams"
             align="center"
           />
-          
+
           <div className="grid md:grid-cols-3 gap-8 mt-12">
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
               <h3 className="text-xl font-semibold mb-4">Expert Faculty</h3>
@@ -153,14 +155,14 @@ const AboutPage = () => {
                 Learn from experienced faculty who have helped thousands of students crack competitive exams. Get insights, tips, and strategies that work.
               </p>
             </div>
-            
+
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
               <h3 className="text-xl font-semibold mb-4">Comprehensive Study Material</h3>
               <p className="text-primary-100">
                 Access well-structured study materials, practice questions, and mock tests designed to cover the entire NCAT syllabus.
               </p>
             </div>
-            
+
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
               <h3 className="text-xl font-semibold mb-4">Personalized Feedback</h3>
               <p className="text-primary-100">
@@ -168,7 +170,7 @@ const AboutPage = () => {
               </p>
             </div>
           </div>
-          
+
           <div className="text-center mt-12">
             <a href="/events" className="btn bg-white text-primary-900 hover:bg-gray-100">
               Join the Campaign
@@ -180,107 +182,115 @@ const AboutPage = () => {
       {/* Founder Story */}
       <section className="section-padding bg-gray-50">
         <div className="container-custom">
-          <SectionTitle 
-            title="Founder's Story" 
+          <SectionTitle
+            title="Founder's Story"
             subtitle="The journey behind Upskill Bharat"
             align="center"
           />
-          
-            <div className="card p-8 md:p-12 mt-12">
+
+          <div className="card p-8 md:p-12 mt-12">
             <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
-              <img 
-              src={PramodImage} 
-              alt="Founder" 
-              className="rounded-full w-32 h-32 object-cover border-4 border-primary-100"
+              <img
+                src={PramodImage}
+                alt="Founder"
+                className="rounded-full w-32 h-32 object-cover border-4 border-primary-100"
               />
               <div>
-              <h3 className="text-2xl font-semibold mb-2">V Pramod Reddy</h3>
-              <p className="text-primary-600 mb-4">Founder & CEO, Innovission</p>
-              <div className="flex gap-4">
-              <a href="#" className="text-gray-500 hover:text-primary-600">
-              <ExternalLink className="h-5 w-5" />
-              </a>
-              </div>
+                <h3 className="text-2xl font-semibold mb-2">V Pramod Reddy</h3>
+                <p className="text-primary-600 mb-4">Founder & CEO, Innovission</p>
+                <div className="flex gap-4">
+                  <a href="#" className="text-gray-500 hover:text-primary-600">
+                    <ExternalLink className="h-5 w-5" />
+                  </a>
+                </div>
               </div>
             </div>
-            
+
             <div className="prose max-w-none text-gray-600">
               <p className="mb-4">
-              As a passionate engineering student and emerging educator, I’ve seen how students often struggle to connect what they learn in college with real-world applications. The growing gap between academic learning and practical skills motivated me to start Innovission – a platform built to empower students through innovative, hands-on learning experiences.</p>
+                As the Founder and CEO of Innovission, my journey began with a simple observation — students often struggle to connect academic theory with real-world application. That realization sparked the creation of Innovission, a student-driven initiative designed to close this gap through innovation, collaboration, and hands-on learning.
+              </p>
               <p className="mb-4">
-              I began by sharing coding tips, design tutorials, and career insights online. What started as a small initiative has now grown into a vibrant community of learners and creators who believe in the power of "Upskill Bharat." With every post, project, and workshop, we’re building a bridge between knowledge and opportunity.</p>
+                What started as a passion project — sharing insights on coding, design, and career development — has evolved into a dynamic platform where learners become creators. Through workshops, mentorship, and content, we've fostered a growing movement that aligns with our mission: "Upskill Bharat."
+              </p>
               <p>
-              The journey hasn’t been easy, but the impact we see in students’ growth keeps us going. From a team of passionate peers, we’ve reached hundreds of learners and are growing every day. We’re just getting started – and I invite you to join us on this mission to learn, build, and innovate for a better tomorrow.
-
-</p>
-            </div>
+                The path has had its challenges, but the impact on students’ growth and confidence drives our vision forward. Today, Innovission stands as a thriving hub led by passionate minds, reaching hundreds of learners across the country. And we’re just getting started. Join us as we continue to shape a future where education meets opportunity, and innovation fuels change.
+              </p>
             </div>
 
-            <div className="card p-8 md:p-12 mt-12">
+          </div>
+
+          <div className="card p-8 md:p-12 mt-12">
             <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
-              <img 
-              src="https://images.pexels.com/photos/3184613/pexels-photo-3184613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-              alt="Co-Founder" 
-              className="rounded-full w-32 h-32 object-cover border-4 border-primary-100"
+              <img
+                src={HemanthImage}
+                alt="Co-Founder"
+                className="rounded-full w-32 h-32 object-cover border-4 border-primary-100"
               />
               <div>
-              <h3 className="text-2xl font-semibold mb-2">K S Hemanth Kumar</h3>
-              <p className="text-primary-600 mb-4">Founder & COO, Innovission</p>
-              <div className="flex gap-4">
-                <a href="#" className="text-gray-500 hover:text-primary-600">
-                <ExternalLink className="h-5 w-5" />
-                </a>
+                <h3 className="text-2xl font-semibold mb-2">K S Hemanth Kumar</h3>
+                <p className="text-primary-600 mb-4">Founder & COO, Innovission</p>
+                <div className="flex gap-4">
+                  <a href="https://www.linkedin.com/in/hemanthkumar-k-s?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-500 hover:text-primary-600" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="h-5 w-5" />
+                  </a>
+                </div>
               </div>
-              </div>
-            </div>
-            
-            <div className="prose max-w-none text-gray-600">
-              <p className="mb-4">
-              With a background in technology and a passion for education, I joined Innovission to help bridge the gap between academia and industry. My journey began as a software engineer, but I soon realized my calling was to empower others to achieve their career goals.
-              </p>
-              <p className="mb-4">
-              At Innovission, I focus on operational excellence and ensuring that our programs deliver real value to our students. From designing curriculum to building partnerships, my goal is to create a seamless learning experience that prepares students for the future.
-              </p>
-              <p>
-              I believe that education is the most powerful tool for change, and I'm proud to be part of a team that's making a difference. Together, we're shaping the future of education in India, one student at a time.
-              </p>
-            </div>
             </div>
 
-            <div className="card p-8 md:p-12 mt-12">
-            <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
-              <img 
-              src="https://images.pexels.com/photos/3184613/pexels-photo-3184613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-              alt="Founder & CTO" 
-              className="rounded-full w-32 h-32 object-cover border-4 border-primary-100"
-              />
-              <div>
-              <h3 className="text-2xl font-semibold mb-2">Sruthi</h3>
-              <p className="text-primary-600 mb-4">CMO, Innovission</p>
-              <div className="flex gap-4">
-                <a href="#" className="text-gray-500 hover:text-primary-600">
-                <ExternalLink className="h-5 w-5" />
-                </a>
-              </div>
-              </div>
-            </div>
-            
             <div className="prose max-w-none text-gray-600">
               <p className="mb-4">
-              With a background in technology and a passion for education, I joined Innovission to help bridge the gap between academia and industry. My journey began as a software engineer, but I soon realized my calling was to empower others to achieve their career goals.
+                As the Founder and COO of Innovission, and currently pursuing my engineering degree, I bring a unique blend of academic insight and real-world leadership. I serve as the technical backbone of our organization, steering the vision and operations to bridge the gap between learning and industry relevance.
               </p>
               <p className="mb-4">
-              At Innovission, I focus on operational excellence and ensuring that our programs deliver real value to our students. From designing curriculum to building partnerships, my goal is to create a seamless learning experience that prepares students for the future.
+                With a strong passion for technology and education, I lead our technical initiatives—from building scalable platforms to architecting seamless digital experiences that empower learners. Balancing my role as a student and a leader allows me to stay connected to the challenges faced by today’s youth, and solve them through innovative solutions.
+              </p>
+              <p className="mb-4">
+                I actively provide technical support to our team, guide development processes, and drive strategic decisions that shape our growth. From mentoring peers to launching impactful programs, my focus is on ensuring that Innovission delivers practical, future-ready learning.
               </p>
               <p>
-              I believe that education is the most powerful tool for change, and I'm proud to be part of a team that's making a difference. Together, we're shaping the future of education in India, one student at a time.
+                At Innovission, we believe in transforming education through action and empathy. I’m proud to be building something meaningful—by students, for students—to create a better future, one learner at a time.
               </p>
             </div>
+
+
+          </div>
+
+          <div className="card p-8 md:p-12 mt-12">
+            <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
+              <img
+              src={SruithiImage}
+                alt="Founder & CTO"
+                className="rounded-full w-32 h-32 object-cover border-4 border-primary-100"
+              />
+              <div>
+                <h3 className="text-2xl font-semibold mb-2">Sruthi</h3>
+                <p className="text-primary-600 mb-4">CMO, Innovission</p>
+                <div className="flex gap-4">
+                  <a href="#" className="text-gray-500 hover:text-primary-600">
+                    <ExternalLink className="h-5 w-5" />
+                  </a>
+                </div>
+              </div>
             </div>
+
+            <div className="prose max-w-none text-gray-600">
+              <p className="mb-4">
+                As the Chief Marketing Officer of Innovission, I bring creativity, strategy, and purpose to everything we share with the world. My journey started with a passion for communication and storytelling, and today, I lead our efforts to connect with students, educators, and innovators across the country.
+              </p>
+              <p className="mb-4">
+                At Innovission, I focus on building our brand identity, managing campaigns, and growing a community that believes in the power of "learning by doing." From social media outreach to event promotion, I ensure that every initiative we take reaches and resonates with the people it’s meant to impact.
+              </p>
+              <p>
+                I believe that marketing is more than promotion — it’s about making meaningful connections. I’m proud to be part of a team that’s reimagining education and excited to keep amplifying our mission, one message at a time.
+              </p>
+            </div>
+
+          </div>
         </div>
       </section>
 
-    
+
     </>
   );
 };

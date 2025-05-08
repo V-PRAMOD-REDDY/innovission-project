@@ -1,4 +1,5 @@
 import { ChevronRight } from 'lucide-react';
+import HerosectionImage from '../Assets/Herosection-img.webp'
 
 interface HeroSectionProps {
   title: string;
@@ -17,7 +18,7 @@ const HeroSection = ({
   ctaLink,
   secondaryCtaText,
   secondaryCtaLink,
-  imageUrl = 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+  imageUrl = HerosectionImage,
 }: HeroSectionProps) => {
   return (
     <div className="relative bg-gradient-to-r from-primary-950 to-primary-900 overflow-hidden pt-20">
