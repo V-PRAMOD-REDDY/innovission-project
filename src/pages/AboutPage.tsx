@@ -1,6 +1,8 @@
 import { ExternalLink, Target, Lightbulb, Users, Heart } from 'lucide-react';
 import PageHeader from '../components/PageHeader';
 import SectionTitle from '../components/SectionTitle';
+import PramodImage from '../Assets/Pramod.jpg';
+
 
 const AboutPage = () => {
   return (
@@ -187,7 +189,7 @@ const AboutPage = () => {
             <div className="card p-8 md:p-12 mt-12">
             <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
               <img 
-              src="/src/Assets/Pramod.jpg" 
+              src={PramodImage} 
               alt="Founder" 
               className="rounded-full w-32 h-32 object-cover border-4 border-primary-100"
               />
